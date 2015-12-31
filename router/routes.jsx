@@ -19,11 +19,11 @@ FlowRouter.route("/", {
 //   }
 // });
 
-FlowRouter.route("/private", {
-  name: "private",
+FlowRouter.route("/dashboard", {
+  name: "dashboard",
   triggersEnter: [AccountsTemplates.ensureSignedIn], // force login
   action() {
-    ReactLayout.render(MainLayout, { content: <Private /> });
+    ReactLayout.render(MainLayout, { content: <Dashboard /> });
   }
 });
 

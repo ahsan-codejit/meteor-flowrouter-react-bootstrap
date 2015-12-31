@@ -1,10 +1,10 @@
 
-Private = React.createClass({
+Dashboard = React.createClass({
   render() {
     return (
       <div class="container">
         <div>
-          <h1 className="text-center">This is private stuff!</h1>
+          <h1 className="text-center">This is Dashboard!</h1>
         </div>
       </div>
     );

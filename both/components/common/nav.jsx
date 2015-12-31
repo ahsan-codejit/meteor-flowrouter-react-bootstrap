@@ -39,7 +39,7 @@ Nav = React.createClass({
             <div className="collapse navbar-collapse">
               <ul className="nav navbar-nav">
                 <li><a href="/">Home</a></li>
-                <li><a href="/private">Private</a></li>
+                <li><a href="/dashboard">Dashboard</a></li>
               </ul>
               {this.navLinks()}
             </div>
